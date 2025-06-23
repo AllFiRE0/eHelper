@@ -1,0 +1,17 @@
+messages:
+  no-permission: "&cУ вас нет прав! ({permission})"
+  reloaded: "&aКонфиг перезагружен!"
+  usage: "&eИспользуйте: &6/ehelper send <1-4> [ник]"
+  player-not-found: "&cИгрок {player} не найден!"
+  sent-confirmation: "&aСообщение отправлено игроку {player}!"
+
+command-messages:
+  1: "&aПривет, {player}! Твой ник: %player_name%"
+  2: "&6Уровень: %player_level%, Мир: {world}"
+  3: "&eОнлайн: {online}, Время: %time%"
+  4: "&cАдмин-сообщение для {player}"
+
+permissions:
+  reload: "ehelper.reload"
+  use: "ehelper.use"
+  send-others: "ehelper.send.others"
