@@ -1,0 +1,9 @@
+name: eHelper
+version: 1.0
+main: ru.allfire.ehelper.Main
+author: AllFiRE
+description: "Плагин для кастомных сообщений с PlaceholderAPI"
+commands:
+  ehelper:
+    description: "Основная команда плагина"
+    usage: "/ehelper <reload|send>"
