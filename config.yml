@@ -1,0 +1,21 @@
+# Настройки плагина eHelper
+author: AllFiRE
+version: 1.0
+
+messages:
+  no-permission: "&cУ вас нет прав! ({permission})"
+  reloaded: "&aКонфиг перезагружен!"
+  usage: "&eИспользуйте: &6/ehelper send <1-4> [ник]"
+  player-not-found: "&cИгрок {player} не найден!"
+  sent-confirmation: "&aСообщение отправлено игроку {player}!"
+
+command-messages:
+  1: "&aПривет, {player}! Твой баланс: %vault_balance%$"
+  2: "&6Уровень: %player_level%, Клан: %simpleclans_clan%"
+  3: "&eОнлайн: {online}, Ваш регион: %griefprevention_claims%"
+  4: "&cВремя: %time%, Дата: %date%"
+
+permissions:
+  reload: "ehelper.reload"
+  use: "ehelper.use"
+  send-others: "ehelper.send.others"
